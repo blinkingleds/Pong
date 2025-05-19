@@ -1,3 +1,17 @@
+# Build directories
+build/
+dist/
+out/
+
+# CMake generated files and directories
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.cmake
+!CMakeLists.txt # Make sure we don't ignore the main CMakeLists.txt
+
 # Prerequisites
 *.d
 
@@ -30,3 +44,47 @@
 *.exe
 *.out
 *.app
+
+# IDE specific files
+.vscode/
+.vs/
+*.swp
+*.swo
+.idea/
+*.project
+*.डूबा हुआ
+*.kdev4
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+*.creator
+*.creator.user
+*.cbp
+*.xcodeproj/
+*.xcworkspace/
+*.xcscheme
+*.xcuserstate
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite 
