@@ -2,6 +2,10 @@
 
 A simple implementation of the classic Pong game using SDL3.
 
+![Pong_GameMenu](https://github.com/user-attachments/assets/731eea1d-43f8-4604-a571-3887c83f4d61)
+![Pong_GamePlay](https://github.com/user-attachments/assets/8b27a699-2d27-4d63-9ad2-6fb0785a74f0)
+
+
 ## Game Components
 
 - Main menu with start and quit options
