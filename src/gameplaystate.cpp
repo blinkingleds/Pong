@@ -512,13 +512,13 @@ void GamePlayState::Render(SDL_Renderer* renderer)
     leftPlayerScoreTexture = SDL_CreateTextureFromSurface( renderer, leftPlayerScoreSurface );
     rightPlayerScoreTexture = SDL_CreateTextureFromSurface( renderer, rightPlayerScoreSurface );
 
-    SDL_FRect leftPlayerScoreDest = {
+    SDL_FRect rightPlayerScoreDest = {
         static_cast<float>(WINDOW_WIDTH/2 + 30),
         static_cast<float>(COURT_OFFSET + 10),
         30.0f,
         30.0f
     };
-    SDL_FRect rightPlayerScoreDest = {
+    SDL_FRect leftPlayerScoreDest = {
         static_cast<float>(WINDOW_WIDTH/2 - 60),
         static_cast<float>(COURT_OFFSET + 10),
         30.0f,
